@@ -2,6 +2,8 @@
 #include <cmath>
 #include "math.h"
 
+#define MacroC (h(s * s, 1 + t) + h(1, s * t)) / 1 + h(s, t) * h(s, t)
+
 using namespace std;
 double h(const double a, const double b);
 int main()
